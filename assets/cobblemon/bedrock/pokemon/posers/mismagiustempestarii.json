@@ -1,0 +1,80 @@
+{
+ "head": "head",
+ "portraitScale": 0.8,
+ "portraitTranslation": [ 0, 0.5, 0 ],
+ "profileScale": 0.8,
+ "profileTranslation": [ 0, 0.4, 0 ],
+  "animations": {
+   "faint": "q.bedrock_primary('mismagiustempestarii', 'faint', q.curve('one'))",
+   "physical": "q.bedrock_primary('mismagiustempestarii', 'physical', q.curve('symmetrical_wide'))",
+   "mortalspin": "q.bedrock_primary('mismagiustempestarii', 'mortalspin', q.curve('symmetrical_wide'))",
+   "noxioustorque": "q.bedrock_primary('mismagiustempestarii', 'noxioustorque', q.curve('symmetrical_wide'))",
+   "filletaway": "q.bedrock_primary('mismagiustempestarii', 'filletaway', q.curve('symmetrical_wide'))",
+   "banefulbunker": "q.bedrock_primary('mismagiustempestarii', 'banefulbunker', q.curve('symmetrical_wide'))",
+   "status": "q.bedrock_primary('mismagiustempestarii', 'status', q.curve('symmetrical_wide'))",
+   "spiritshackle": "q.bedrock_primary('mismagiustempestarii', 'spiritshackle', q.curve('symmetrical_wide'))"
+   
+   
+ },
+ "poses": {
+   "standing": {
+     "poseName": "standing",
+     "transformTicks": 10,
+     "poseTypes": [
+       "STAND",
+       "NONE",
+       "PORTRAIT",
+       "PROFILE"
+     ],
+     "isBattle":false,
+     "animations": [
+       "bedrock(mismagiustempestarii, ground_idle)"]
+     },
+
+   "battle-standing": {
+     "poseName": "battle-standing",
+     "isBattle": true,
+     "transformTicks": 10,
+     "poseTypes": [ "STAND" ],
+     "animations": [ "bedrock(mismagiustempestarii, battle_idle)"]
+     
+   },
+   "walking": {
+     "poseName": "walking",
+     "transformTicks": 10,
+     "poseTypes": [ "WALK" ],
+     "animations": [ "bedrock(mismagiustempestarii, ground_walk)" ]
+   },
+   "swimming": {
+     "poseName": "swim",
+     "transformTicks": 10,
+     "poseTypes": [ "SWIM" ],
+     "animations": [ "bedrock(mismagiustempestarii, ground_walk)" ]
+   },
+	    "hover": {
+     "poseName": "hover",
+     "transformTicks": 10,
+     "poseTypes": [ "HOVER" ],
+     "animations": [ "bedrock(mismagiustempestarii, ground_walk)" ]
+    },
+	    "fly": {
+     "poseName": "fly",
+     "transformTicks": 10,
+     "poseTypes": [ "FLY" ],
+     "animations": [ "bedrock(mismagiustempestarii, ground_walk)" ]
+   },
+   "floating": {
+     "poseName": "float",
+     "transformTicks": 10,
+     "poseTypes": [ "FLOAT" ],
+     "animations": [ "bedrock(mismagiustempestarii, ground_walk)" ]
+   }, 
+    "sleeping": {
+     "poseName": "sleep",
+     "transformTicks": 10,
+     "poseTypes": [ "SLEEP" ],
+     "animations": [ "bedrock(mismagiustempestarii, sleep)"] 
+   
+   }
+ }
+}

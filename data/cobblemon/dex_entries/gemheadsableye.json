@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gemheadsableye",
+  "speciesId": "cobblemon:gemheadsableye",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "normal",
+      "unlockForms": [
+        "normal"
+      ]
+    }
+  ],
+  "variations": []
+}

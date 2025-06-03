@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:candycrazedsableye",
+  "speciesId": "cobblemon:candycrazedsableye",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "normal",
+      "unlockForms": [
+        "normal"
+      ]
+    }
+  ],
+  "variations": []
+}

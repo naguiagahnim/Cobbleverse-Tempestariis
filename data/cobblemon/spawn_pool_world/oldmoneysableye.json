@@ -1,0 +1,45 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+
+            "id": "oldmoneysableye-1",
+            "pokemon": "oldmoneysableye",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#cobblemon:ruin"
+                ],
+                "minY": 48
+            }
+        },
+        {
+            "id": "oldmoneysableye-2",
+            "pokemon": "oldmoneysableye",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#cobblemon:ruins/arch"
+                ],
+                "minY": -37,
+                "maxY": 10
+            }
+          }
+        ]
+     }
+        
+    

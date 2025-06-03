@@ -1,0 +1,26 @@
+{
+  "species": "cobblemon:emboartempestarii",
+  "order": 0,
+  "variations": [
+    {
+      "poser": "cobblemon:emboartempestarii",
+      "model": "cobblemon:emboartempestarii.geo",
+      "texture": "cobblemon:textures/pokemon/emboartempestarii/emboartempestarii.png",
+      "layers": [
+        {
+          "name": "animation",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/emboartempestarii/animation/frame1.png",
+              "cobblemon:textures/pokemon/emboartempestarii/animation/frame2.png",
+              "cobblemon:textures/pokemon/emboartempestarii/animation/frame3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

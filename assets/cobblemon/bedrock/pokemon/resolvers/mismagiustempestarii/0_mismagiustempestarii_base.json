@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:mismagiustempestarii",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:mismagiustempestarii",
+      "model": "cobblemon:mismagiustempestarii.geo",
+      "texture": "cobblemon:textures/pokemon/mismagiustempestarii/mismagiustempestarii.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/mismagiustempestarii/mismagiustempestarii_emissive.png",
+              "translucent": false
+        }
+      ]
+    }
+  ]
+}

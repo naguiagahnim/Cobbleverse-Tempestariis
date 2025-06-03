@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:haxorustempestarii",
+  "speciesId": "cobblemon:haxorustempestarii",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "normal",
+      "unlockForms": [
+        "normal"
+      ]
+    }
+  ],
+  "variations": []
+}

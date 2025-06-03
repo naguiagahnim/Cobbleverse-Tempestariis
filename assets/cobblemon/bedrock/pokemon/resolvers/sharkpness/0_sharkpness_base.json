@@ -1,0 +1,12 @@
+{
+    "species": "cobblemon:sharkpness",
+    "order": 0,
+    "variations": [
+        {
+            "poser": "cobblemon:sharkpness",
+            "model": "cobblemon:sharkpness.geo",
+            "texture": "cobblemon:textures/pokemon/sharkpness/sharkpness.png",
+            "layers": []
+        }
+    ]
+}

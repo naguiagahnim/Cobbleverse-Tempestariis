@@ -1,0 +1,12 @@
+{
+    "species": "cobblemon:candycrazedsableye",
+    "order": 0,
+    "variations": [
+        {
+            "poser": "cobblemon:candycrazedsableye",
+            "model": "cobblemon:candycrazedsableye.geo",
+            "texture": "cobblemon:textures/pokemon/candycrazedsableye/candycrazedsableye.png",
+            "layers": []
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+  "head": "head",
+  "portraitScale": 1.0,
+  "portraitTranslation": [0, 0.5, 0],
+  "profileScale": 1.0,
+  "profileTranslation": [0, 0.4, 0],
+  "animations": {
+    "faint": "q.bedrock_primary('darkraitempestarii', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('darkraitempestarii', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('darkraitempestarii', 'special', q.curve('symmetrical_wide'))",
+    "mortalspin": "q.bedrock_primary('darkraitempestarii', 'mortalspin', q.curve('symmetrical_wide'))",
+    "banefulbunker": "q.bedrock_primary('darkraitempestarii', 'banefulbunker', q.curve('symmetrical_wide'))",
+    "malignantchain": "q.bedrock_primary('darkraitempestarii', 'malignantchain', q.curve('symmetrical_wide'))",
+    "ceaselessedge": "q.bedrock_primary('darkraitempestarii', 'ceaselessedge', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('darkraitempestarii', 'status', q.curve('symmetrical_wide'))",
+    "fishiousrend": "q.bedrock_primary('darkraitempestarii', 'fishiousrend', q.curve('symmetrical_wide'))",
+    "gunkshot": "q.bedrock_primary('darkraitempestarii', 'gunkshot', q.curve('symmetrical_wide'))",
+    "barbbarrage": "q.bedrock_primary('darkraitempestarii', 'barbbarrage', q.curve('symmetrical_wide'))",
+	"suckerpunch": "q.bedrock_primary('darkraitempestarii', 'suckerpunch', q.curve('symmetrical_wide'))"
+
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "look",
+        "bedrock(darkraitempestarii, ground_idle)"
+		     ],
+     "quirks": ["q.bedrock_quirk('darkraitempestarii', 'quirk1')"]
+    },
+    "swimming": {
+      "poseName": "swim",
+      "transformTicks": 10,
+      "poseTypes": ["SWIM"],
+      "animations": ["bedrock(darkraitempestarii, water_swim)"]
+    },
+    "floating": {
+      "poseName": "float",
+      "transformTicks": 10,
+      "poseTypes": ["FLOAT"],
+      "animations": ["bedrock(darkraitempestarii, water_idle)"]
+    },
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "isBattle": true,
+      "transformTicks": 10,
+      "poseTypes": ["STAND"],
+      "animations": ["bedrock(darkraitempestarii, battle_idle)"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "transformTicks": 10,
+      "animations": [
+        "look('head')",
+        "bedrock(darkraitempestarii, ground_walk)"
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleep",
+      "transformTicks": 10,
+      "poseTypes": ["SLEEP"],
+      "animations": ["bedrock(darkraitempestarii, sleep)"]
+    }
+  }
+}

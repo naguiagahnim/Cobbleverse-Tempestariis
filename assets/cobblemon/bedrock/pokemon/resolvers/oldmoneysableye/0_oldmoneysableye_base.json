@@ -1,0 +1,12 @@
+{
+    "species": "cobblemon:oldmoneysableye",
+    "order": 0,
+    "variations": [
+        {
+            "poser": "cobblemon:oldmoneysableye",
+            "model": "cobblemon:oldmoneysableye.geo",
+            "texture": "cobblemon:textures/pokemon/oldmoneysableye/oldmoneysableye.png",
+            "layers": []
+        }
+    ]
+}

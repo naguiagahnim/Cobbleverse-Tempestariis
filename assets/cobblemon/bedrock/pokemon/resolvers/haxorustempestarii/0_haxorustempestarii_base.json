@@ -1,0 +1,26 @@
+{
+  "species": "cobblemon:haxorustempestarii",
+  "order": 0,
+  "variations": [
+    {
+      "poser": "cobblemon:haxorustempestarii",
+      "model": "cobblemon:haxorustempestarii.geo",
+      "texture": "cobblemon:textures/pokemon/haxorustempestarii/haxorustempestarii.png",
+      "layers": [
+        {
+          "name": "animation",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/haxorustempestarii/animation/frame1.png",
+              "cobblemon:textures/pokemon/haxorustempestarii/animation/frame2.png",
+              "cobblemon:textures/pokemon/haxorustempestarii/animation/frame3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+ "head": "head",
+ "portraitScale": 1.0,
+ "portraitTranslation": [ 0, 0.5, 0 ],
+ "profileScale": 1.0,
+ "profileTranslation": [ 0, 0.4, 0 ],
+  "animations": {
+   "faint": "q.bedrock_primary('emboartempestarii', 'faint', q.curve('one'))",
+   "physical": "q.bedrock_primary('emboartempestarii', 'physical', q.curve('symmetrical_wide'))",
+   "gigatonhammer": "q.bedrock_primary('emboartempestarii', 'gigatonhammer', q.curve('symmetrical_wide'))"
+ },
+ "poses": {
+   "standing": {
+     "poseName": "standing",
+     "transformTicks": 10,
+     "poseTypes": [
+       "STAND",
+       "NONE",
+       "PORTRAIT",
+       "PROFILE"
+     ],
+     "isBattle":false,
+     "animations": [
+       "look",
+       "bedrock(emboartempestarii, ground_idle)"]
+     },
+
+   "battle-standing": {
+     "poseName": "battle-standing",
+     "isBattle": true,
+     "transformTicks": 10,
+     "poseTypes": [ "STAND" ],
+     "animations": [ "bedrock(emboartempestarii, battle_idle)"]
+     
+   },
+   "walking": {
+     "poseName": "walking",
+     "transformTicks": 10,
+     "poseTypes": [ "WALK" ],
+     "animations": [ "bedrock(emboartempestarii, ground_walk)" ]
+   }, 
+    "sleeping": {
+     "poseName": "sleep",
+     "transformTicks": 10,
+     "poseTypes": [ "SLEEP" ],
+     "animations": [ "bedrock(emboartempestarii, sleep)"] 
+   
+   }
+   
+ }
+}

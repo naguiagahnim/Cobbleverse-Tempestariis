@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bisharptempestarii",
+  "speciesId": "cobblemon:bisharptempestarii",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "normal",
+      "unlockForms": [
+        "normal"
+      ]
+    }
+  ],
+  "variations": []
+}

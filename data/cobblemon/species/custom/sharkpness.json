@@ -1,0 +1,127 @@
+{
+  "implemented": true,
+  "name": "sharkpness",
+  "nationalPokedexNumber": 5002,
+  "primaryType": "water",
+  "secondaryType": "steel",
+  "abilities": [
+    "sharpness",
+    "megalauncher",
+    "h:noguard"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 123,
+    "defence": 90,
+    "special_attack": 15,
+    "special_defence": 30,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "6-15",
+      "willSleepOnBed": false,
+      "times": "day"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 25,
+  "eggGroups": [
+    "water_1",
+    "mineral"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:rare_candy",
+        "quantityRange": "3-3",
+        "percentage": 100
+      }
+    ]
+  },
+  "moves": [
+    "1:pursuit",
+    "1:astonish",
+    "1:aquajet",
+    "1:cut",
+    "11:aerialace",
+    "15:slash",
+    "21:nightslash",
+    "24:shadowclaw",
+    "26:aquacutter",
+    "27:smartstrike",
+    "31:autotomize",
+    "35:irondefense",
+    "39:raindance",
+    "44:swordsdance",
+    "48:sacredsword",
+    "50:fishiousrend"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.sharkpness.desc1",
+    "cobblemon.species.sharkpness.desc2"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 22,
+  "evolutions": [
+    {
+      "id": "sharkpness-gunseaslash-level_up",
+      "variant": "level_up",
+      "result": "gunseaslash",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "flashcannon"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "biomeCondition": "#cobblemon:is_cold_ocean",
+          "minLevel": 31
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

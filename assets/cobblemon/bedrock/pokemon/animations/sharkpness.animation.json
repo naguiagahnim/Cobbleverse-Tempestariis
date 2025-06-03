@@ -1,0 +1,97 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.sharkpness.sleep": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [-12.07588, -0.11511, -90.01222],
+					"position": [0, -5.4, 0]
+				}
+			}
+		},
+		"animation.sharkpness.ground_idle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"position": [0, -5, 0]
+				}
+			}
+		},
+		"animation.sharkpness.ground_walk": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["87.5+math.sin(query.anim_time * 120) * 6", 0, "math.cos(query.anim_time * 100) * 4"],
+					"position": [0, "3+math.sin(query.anim_time * 90) * 1", 0]
+				}
+			}
+		},
+		"animation.sharkpness.physical": {
+			"animation_length": 1.5,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [85, 0, 0],
+						"0.625": [60, 0, 0],
+						"0.7917": [52.5, 0, 0],
+						"0.875": [60, 0, 0],
+						"1.0833": [90, 0, 0],
+						"1.2083": [90, 0, 0],
+						"1.375": [85, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 1, 0],
+						"0.2083": [0, 3.67, 14.67],
+						"0.625": [0, 18, 20],
+						"0.7917": [0, 18, 20],
+						"0.875": [0, 18, 20],
+						"1.0": [0, 7.2, -4],
+						"1.0833": [0, 0, -67],
+						"1.2083": [0, 0, -17],
+						"1.375": [0, 1, 0]
+					}
+				}
+			}
+		},
+		"animation.sharkpness.faint": {
+			"animation_length": 1.7917,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [85, 0, 0],
+						"0.125": [0, 0, -2],
+						"0.1667": [0, 0, -0.5],
+						"0.2083": [0, 0, 1.25],
+						"0.2917": [0, 0, 2.5],
+						"0.3333": [0, 0, 2],
+						"0.4167": [0, 0, -0.43],
+						"0.4583": [0, 0, -0.8],
+						"0.5417": [0, 0, -0.3],
+						"0.5833": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 1, 0],
+						"0.1667": [0, 0, 0],
+						"0.25": [0, 2.6, 0],
+						"0.2917": [0, 2.5, 0],
+						"0.375": [0, 0, 0],
+						"0.4583": [0, 0.9, 0],
+						"0.5": [0, 0.85, 0],
+						"0.5833": [0, 0, 0],
+						"0.6667": [0, -6, 0]
+					}
+				}
+			}
+		},
+		"animation.sharkpness.water_idle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["87.5+math.sin(query.anim_time * 120) * 6", 0, "math.cos(query.anim_time * 100) * 4"],
+					"position": [0, "3+math.sin(query.anim_time * 90) * 1", 0]
+				}
+			}
+		}
+	}
+}

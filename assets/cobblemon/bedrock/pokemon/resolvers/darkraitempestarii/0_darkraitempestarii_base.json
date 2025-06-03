@@ -1,0 +1,14 @@
+{
+  "species": "cobblemon:darkraitempestarii",
+  "order": 0,
+  "variations": [
+    {
+      "poser": "cobblemon:darkraitempestarii",
+      "model": "cobblemon:darkraitempestarii.geo",
+      "texture": "cobblemon:textures/pokemon/darkraitempestarii/darkraitempestarii.png",
+      "layers": []
+            
+        
+	}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "soullighterlitwick-1",
+            "pokemon": "soullighterlitwick",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "minecraft:frozen_peaks"
+                ]
+            }
+        }
+    ]
+}

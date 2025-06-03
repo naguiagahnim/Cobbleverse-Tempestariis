@@ -1,0 +1,56 @@
+{
+ "head": "head",
+ "portraitScale": 1,
+ "portraitTranslation": [ 0, 0.5, 0 ],
+ "profileScale": 1,
+ "profileTranslation": [ 0, 0.4, 0 ],
+  "animations": {
+   "faint": "q.bedrock_primary('haxorustempestarii', 'faint', q.curve('one'))",
+   "physical": "q.bedrock_primary('haxorustempestarii', 'physical', q.curve('symmetrical_wide'))",
+   "dragondance": "q.bedrock_primary('haxorustempestarii', 'dragondance', q.curve('symmetrical_wide'))",
+   "neverendingnightmare": "q.bedrock_primary('haxorustempestarii', 'neverendingnightmare', q.curve('symmetrical_wide'))",
+   "dragonclaw": "q.bedrock_primary('haxorustempestarii', 'dragonclaw', q.curve('symmetrical_wide'))"
+   
+ },
+ "poses": {
+   "standing": {
+     "poseName": "standing",
+     "transformTicks": 10,
+     "poseTypes": [
+       "STAND",
+       "NONE",
+       "PORTRAIT",
+       "PROFILE"
+     ],
+     "animations": [
+       "look",
+       "bedrock(haxorustempestarii, ground_idle)"]
+     
+   },
+   "walking": {
+     "poseName": "walking",
+     "transformTicks": 10,
+     "poseTypes": [ "WALK" ],
+     "animations": [ "bedrock(haxorustempestarii, ground_walk)" ]
+   },
+   "swimming": {
+     "poseName": "fly",
+     "transformTicks": 10,
+     "poseTypes": [ "FLY" ],
+     "animations": [ "bedrock(haxorustempestarii, air_fly)" ]
+   },
+   "floating": {
+     "poseName": "hover",
+     "transformTicks": 10,
+     "poseTypes": [ "HOVER" ],
+     "animations": [ "bedrock(haxorustempestarii, air_idle)" ]
+   }, 
+    "sleeping": {
+     "poseName": "sleep",
+     "transformTicks": 10,
+     "poseTypes": [ "SLEEP" ],
+     "animations": [ "bedrock(haxorustempestarii, sleep)"] 
+   
+   }
+ }
+}

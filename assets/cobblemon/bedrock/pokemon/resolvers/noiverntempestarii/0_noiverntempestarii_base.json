@@ -1,0 +1,26 @@
+{
+  "species": "cobblemon:noiverntempestarii",
+  "order": 0,
+  "variations": [
+    {
+      "poser": "cobblemon:noiverntempestarii",
+      "model": "cobblemon:noiverntempestarii.geo",
+      "texture": "cobblemon:textures/pokemon/noiverntempestarii/noiverntempestarii.png",
+      "layers": [
+        {
+          "name": "animation",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/noiverntempestarii/animation/frame1.png",
+              "cobblemon:textures/pokemon/noiverntempestarii/animation/frame2.png",
+              "cobblemon:textures/pokemon/noiverntempestarii/animation/frame3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": false
+        }
+      ]
+    }
+  ]
+}

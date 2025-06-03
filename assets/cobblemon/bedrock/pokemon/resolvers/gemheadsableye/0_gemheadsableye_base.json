@@ -1,0 +1,26 @@
+{
+  "species": "cobblemon:gemheadsableye",
+  "order": 0,
+  "variations": [
+    {
+      "poser": "cobblemon:gemheadsableye",
+      "model": "cobblemon:gemheadsableye.geo",
+      "texture": "cobblemon:textures/pokemon/gemheadsableye/gemheadsableye.png",
+      "layers": [
+        {
+          "name": "animation",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/gemheadsableye/animation/frame1.png",
+              "cobblemon:textures/pokemon/gemheadsableye/animation/frame2.png",
+              "cobblemon:textures/pokemon/gemheadsableye/animation/frame3.png"
+            ],
+            "fps": 20,
+            "loop": true
+          },
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

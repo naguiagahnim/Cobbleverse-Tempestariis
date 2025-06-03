@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sharkpness",
+  "speciesId": "cobblemon:sharkpness",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "normal",
+      "unlockForms": [
+        "normal"
+      ]
+    }
+  ],
+  "variations": []
+}

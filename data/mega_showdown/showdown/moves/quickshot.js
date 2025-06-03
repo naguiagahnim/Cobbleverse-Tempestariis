@@ -1,0 +1,15 @@
+{
+		num: 2510,
+		accuracy: 100,
+		basePower: 30,
+		overrideDefensiveStat: 'def',
+		category: "Special",
+		name: "Quick Shot",
+		pp: 30,
+		priority: 4,
+		flags: {contact: 1, protect: 1, mirror: 1, metronome: 1},
+		secondary: null,
+		target: "normal",
+		type: "Steel",
+		contestType: "Cool",
+	}

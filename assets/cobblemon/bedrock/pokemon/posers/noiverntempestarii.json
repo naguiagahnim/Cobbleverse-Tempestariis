@@ -1,0 +1,85 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [-0.4, 1.1, 0],
+  "profileScale": 0.35,
+  "profileTranslation": [0, 1.2, -1.8],
+  "animations": {
+    "faint": "q.bedrock_primary('noiverntempestarii', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('noiverntempestarii', 'cry')",
+    "recoil": "q.bedrock_stateful('noiverntempestarii', 'recoil')",
+    "physical": "q.bedrock_primary('noiverntempestarii', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('noiverntempestarii', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('noiverntempestarii', 'status', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND", "WALK"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('noiverntempestarii', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('noiverntempestarii', 'blink')",
+        "q.bedrock_quirk('noiverntempestarii', 'echo')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('noiverntempestarii', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('noiverntempestarii', 'blink')",
+        "q.bedrock_quirk('noiverntempestarii', 'echo')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('noiverntempestarii', 'ground_walk')"
+      ]
+    },
+    "flying": {
+      "transformTicks": 5,
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('noiverntempestarii', 'air_fly')"
+      ]
+    },
+    "hover": {
+      "transformTicks": 5,
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('noiverntempestarii', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('noiverntempestarii', 'blink')",
+        "q.bedrock_quirk('noiverntempestarii', 'echo')"
+      ]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('noiverntempestarii', 'air_idle')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('noiverntempestarii', 'air_fly')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('noiverntempestarii', 'sleep')"]
+    }
+  }
+}

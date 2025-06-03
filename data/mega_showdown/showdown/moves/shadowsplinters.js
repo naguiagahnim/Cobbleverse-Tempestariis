@@ -1,0 +1,15 @@
+{
+		num: 2504,
+		accuracy: 100,
+		basePower: 25,
+		category: "Physical",
+		name: "Shadow Splinters",
+		pp: 20,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, metronome: 1},
+		multihit: [2, 5],
+		secondary: null,
+		target: "normal",
+		type: "Ghost",
+		contestType: "Tough",
+	}

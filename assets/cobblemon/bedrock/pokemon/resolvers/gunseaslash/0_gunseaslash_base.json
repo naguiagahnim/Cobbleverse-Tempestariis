@@ -1,0 +1,12 @@
+{
+    "species": "cobblemon:gunseaslash",
+    "order": 0,
+    "variations": [
+        {
+            "poser": "cobblemon:gunseaslash",
+            "model": "cobblemon:gunseaslash.geo",
+            "texture": "cobblemon:textures/pokemon/gunseaslash/gunseaslash.png",
+            "layers": []
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "species": "cobblemon:pupiloshawott",
+    "order": 0,
+    "variations": [
+        {
+            "poser": "cobblemon:pupiloshawott",
+            "model": "cobblemon:pupiloshawott.geo",
+            "texture": "cobblemon:textures/pokemon/pupiloshawott/pupiloshawott.png",
+            "layers": []
+        }
+    ]
+}

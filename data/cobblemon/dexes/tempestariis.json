@@ -1,0 +1,20 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "id": "cobblemon:tempestarii",
+  "sortOrder": 13,
+  "entries": [
+    "cobblemon:darkraitempestarii",
+    "cobblemon:dewotttempestarii",
+    "cobblemon:gunseaslash",
+	"cobblemon:sharkpness",
+	"cobblemon:emboartempestarii",
+	"cobblemon:steeloathtinkaton",
+	"cobblemon:noiverntempestarii",
+	"cobblemon:gemheadsableye",
+	"cobblemon:oldmoneysableye",
+	"cobblemon:candycrazedsableye",
+	"cobblemon:soullighterlitwick",
+	"cobblemon:bisharptempestarii",
+	"cobblemon:haxorustempestarii"
+  ] 
+}

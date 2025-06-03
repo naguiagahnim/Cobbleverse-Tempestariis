@@ -1,0 +1,12 @@
+{
+    "species": "cobblemon:steeloathtinkaton",
+    "order": 0,
+    "variations": [
+        {
+            "poser": "cobblemon:steeloathtinkaton",
+            "model": "cobblemon:steeloathtinkaton.geo",
+            "texture": "cobblemon:textures/pokemon/steeloathtinkaton/steeloathtinkaton.png",
+            "layers": []
+        }
+    ]
+}

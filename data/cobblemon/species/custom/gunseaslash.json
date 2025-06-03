@@ -1,0 +1,116 @@
+{
+  "implemented": true,
+  "name": "gunseaslash",
+  "nationalPokedexNumber": 5003,
+  "primaryType": "water",
+  "secondaryType": "steel",
+  "abilities": [
+    "sharpness",
+    "megalauncher",
+    "h:noguard"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 125,
+    "defence": 90,
+    "special_attack": 125,
+    "special_defence": 50,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "4-15",
+      "willSleepOnBed": false,
+      "times": "day"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "eggCycles": 25,
+  "eggGroups": [
+    "amorphous",
+    "water_1"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:rare_candy",
+        "quantityRange": "4-5",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:pursuit",
+    "1:astonish",
+    "1:aquajet",
+    "1:cut",
+    "11:aerialace",
+    "15:slash",
+    "21:nightslash",
+    "24:shadowclaw",
+    "26:aquacutter",
+    "27:smartstrike",
+    "31:autotomize",
+    "35:irondefense",
+    "39:raindance",
+    "44:swordsdance",
+    "48:sacredsword",
+    "50:fishiousrend",
+	"32:snipeshot",
+	"36:flipturn",
+    "46:zapcannon",
+    "50:ceaselessedge",
+    "57:ironhead",
+    "65:searingshot",
+    "70:hydropump",
+    "75:anchorshot"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.gunseaslash.desc1",
+    "cobblemon.species.gunseaslash.desc2"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 39,
+  "evolutions": []
+}

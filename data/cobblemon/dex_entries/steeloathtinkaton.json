@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:steeloathtinkaton",
+  "speciesId": "cobblemon:steeloathtinkaton",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "normal",
+      "unlockForms": [
+        "normal"
+      ]
+    }
+  ],
+  "variations": []
+}

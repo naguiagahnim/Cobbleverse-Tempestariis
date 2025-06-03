@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "gemheadsableye-1",
+            "pokemon": "gemheadsableye",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_cave"
+                ]
+            }
+        }
+    ]
+}

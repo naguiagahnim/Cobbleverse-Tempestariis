@@ -1,0 +1,20 @@
+{
+		num: 2513,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Underworld's Exaltation",
+		pp: 20,
+		priority: 0,
+		flags: {snatch: 1, metronome: 1, heal: 1},
+		heal: [1, 4], 
+		boosts: {
+			atk: 1,
+			spe: 1,
+		},
+		secondary: null,
+		target: "self",
+		type: "Ghost",
+		zMove: {boost: {def: 1, spa: 1, spd: 1}},
+		contestType: "Cool",
+}

@@ -1,0 +1,60 @@
+{
+ "head": "head",
+ "portraitScale": 1.0,
+ "portraitTranslation": [ 0, 0.5, 0 ],
+ "profileScale": 1.0,
+ "profileTranslation": [ 0, 0.4, 0 ],
+  "animations": {
+   "faint": "q.bedrock_primary('bisharptempestarii', 'faint', q.curve('one'))",
+   "status": "q.bedrock_primary('bisharptempestarii', 'status', q.curve('symmetrical_wide'))",
+   "special": "q.bedrock_primary('bisharptempestarii', 'special', q.curve('symmetrical_wide'))",
+   "takeheart": "q.bedrock_primary('bisharptempestarii', 'takeheart', q.curve('symmetrical_wide'))",
+   "endure": "q.bedrock_primary('bisharptempestarii', 'endure', q.curve('symmetrical_wide'))",
+   "tachyoncutter": "q.bedrock_primary('bisharptempestarii', 'tachyoncutter', q.curve('symmetrical_wide'))",
+   "twinbeam": "q.bedrock_primary('bisharptempestarii', 'twinbeam', q.curve('symmetrical_wide'))",
+   "vacuumwave": "q.bedrock_primary('bisharptempestarii', 'vacuumwave', q.curve('symmetrical_wide'))",
+   "doomdesire": "q.bedrock_primary('bisharptempestarii', 'doomdesire', q.curve('symmetrical_wide'))",
+   "lightofruin": "q.bedrock_primary('bisharptempestarii', 'lightofruin', q.curve('symmetrical_wide'))",
+   "watershuriken": "q.bedrock_primary('bisharptempestarii', 'watershuriken', q.curve('symmetrical_wide'))",
+   "secretsword": "q.bedrock_primary('bisharptempestarii', 'secretsword', q.curve('symmetrical_wide'))"
+ },
+ "poses": {
+   "standing": {
+     "poseName": "standing",
+     "transformTicks": 10,
+     "poseTypes": [
+       "STAND",
+       "NONE",
+       "PORTRAIT",
+       "PROFILE"
+     ],
+     "isBattle":false,
+     "animations": [
+       "look",
+       "bedrock(bisharptempestarii, ground_idle)"]
+     },
+
+   "battle-standing": {
+     "poseName": "battle-standing",
+     "isBattle": true,
+     "transformTicks": 10,
+     "poseTypes": [ "STAND" ],
+     "animations": [ "bedrock(bisharptempestarii, battle_idle)"]
+     
+   },
+   "walking": {
+     "poseName": "walking",
+     "transformTicks": 10,
+     "poseTypes": [ "WALK" ],
+     "animations": [ "bedrock(bisharptempestarii, ground_walk)" ]
+   }, 
+    "sleeping": {
+     "poseName": "sleep",
+     "transformTicks": 10,
+     "poseTypes": [ "SLEEP" ],
+     "animations": [ "bedrock(bisharptempestarii, sleep)"] 
+   
+   }
+   
+ }
+}

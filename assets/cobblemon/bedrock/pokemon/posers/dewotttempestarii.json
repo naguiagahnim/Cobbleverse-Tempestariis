@@ -1,0 +1,70 @@
+{
+ "head": "head",
+ "portraitScale": 0.8,
+ "portraitTranslation": [ 0, 0.5, 0 ],
+ "profileScale": 0.8,
+ "profileTranslation": [ 0, 0.4, 0 ],
+  "animations": {
+   "faint": "q.bedrock_primary('dewotttempestarii', 'faint', q.curve('one'))",
+   "physical": "q.bedrock_primary('dewotttempestarii', 'physical', q.curve('symmetrical_wide'))",
+   "surgingstrikes": "q.bedrock_primary('dewotttempestarii', 'surgingstrikes', q.curve('symmetrical_wide'))",
+   "obstruct": "q.bedrock_primary('dewotttempestarii', 'obstruct', q.curve('symmetrical_wide'))",
+   "jetpunch": "q.bedrock_primary('dewotttempestarii', 'jetpunch', q.curve('symmetrical_wide'))",
+   "wickedblow": "q.bedrock_primary('dewotttempestarii', 'wickedblow', q.curve('symmetrical_wide'))",
+   "thunderouskick": "q.bedrock_primary('dewotttempestarii', 'thunderouskick', q.curve('symmetrical_wide'))",
+   "plasmafists": "q.bedrock_primary('dewotttempestarii', 'plasmafists', q.curve('symmetrical_wide'))",
+   "followme": "q.bedrock_primary('dewotttempestarii', 'followme', q.curve('symmetrical_wide'))"
+   
+   
+ },
+ "poses": {
+   "standing": {
+     "poseName": "standing",
+     "transformTicks": 10,
+     "poseTypes": [
+       "STAND",
+       "NONE",
+       "PORTRAIT",
+       "PROFILE"
+     ],
+     "isBattle":false,
+     "animations": [
+       "look",
+       "bedrock(dewotttempestarii, ground_idle)"]
+     },
+
+   "battle-standing": {
+     "poseName": "battle-standing",
+     "isBattle": true,
+     "transformTicks": 10,
+     "poseTypes": [ "STAND" ],
+     "animations": [ "bedrock(dewotttempestarii, battle_idle)"]
+     
+   },
+   "walking": {
+     "poseName": "walking",
+     "transformTicks": 10,
+     "poseTypes": [ "WALK" ],
+     "animations": [ "bedrock(dewotttempestarii, ground_walk)" ]
+   },
+   "swimming": {
+     "poseName": "swim",
+     "transformTicks": 10,
+     "poseTypes": [ "SWIM" ],
+     "animations": [ "bedrock(dewotttempestarii, water_swim)" ]
+   },
+   "floating": {
+     "poseName": "float",
+     "transformTicks": 10,
+     "poseTypes": [ "FLOAT" ],
+     "animations": [ "bedrock(dewotttempestarii, water_idle)" ]
+   }, 
+    "sleeping": {
+     "poseName": "sleep",
+     "transformTicks": 10,
+     "poseTypes": [ "SLEEP" ],
+     "animations": [ "bedrock(dewotttempestarii, sleep)"] 
+   
+   }
+ }
+}

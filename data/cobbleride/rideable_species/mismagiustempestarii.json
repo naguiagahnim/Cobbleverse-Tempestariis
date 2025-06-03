@@ -1,0 +1,40 @@
+{
+  "name": "mismagiustempestarii",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": 0.2,
+      "z": -0.5
+    },
+    "WALKING": {
+      "x": 0,
+      "y": 0,
+      "z": -0.5
+    },
+    "FLOATING": {
+      "x": 0,
+      "y": 0.2,
+      "z": -0.5
+    },
+    "SWIMMING": {
+      "x": 0,
+      "y": 0.2,
+      "z": -0.5
+    },
+    "HOVERING": {
+      "x": 0,
+      "y": 0.2,
+      "z": -0.5
+    },
+    "FLYING": {
+      "x": 0,
+      "y": 0.2,
+      "z": -0.5
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 2.5,
+  "waterSpeedModifier": 2.5,
+  "airSpeedModifier": 2.5,
+  "forms": []
+}
